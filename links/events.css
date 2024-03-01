@@ -1,0 +1,98 @@
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: 1px solid #007bff; /* Button border color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .button-link:hover {
+    background-color: #0056b3; /* Button background color on hover */
+    border: 1px solid #0056b3; /* Button border color on hover */
+  }
+  .main-div{
+      width:100%; height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .center-div{
+      width: 90%; height: 80vh;
+      background: -webkit-linear-gradient(left,#5DADE2,#00c6ff);
+      padding: 20px 0 0 0;
+      box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+      border-radius: 10px;
+    }
+    h1{
+      font-size: 50px;
+      color:#000000;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+    table{
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+      border-radius: 10px;
+      margin:auto
+    }
+    th,td{
+      border: 1px solid #f2f2f2;
+      padding: 8px 30px;
+      text-align: center;
+      color: grey;
+    }
+    th{
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    td{
+      font-size: 13px;
+    }
+    .email-style{
+      font-size: 14px;
+      color: grey;
+      display: inline-block;
+      background: #f2f2f2;
+      -webkit-border-radius: 2px;
+      -moz-border-radius:2px;
+      line-height:30px;
+      padding: 0 14px;
+    }
+    .post-class{
+      text-transform: uppercase;
+    }
+    .fa{
+      font-size: 18px;
+    }
+    .fa-edit{ color:#63c76a;}
+    .fa-trash{ color: #ff0000;}
+    a{ text-decoration:none;
+      display: flex;
+      justify-content: center;
+    }
+    .main-div-area{
+      width:100%; height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .center-div-area{
+      width: 90%; height: 80vh;
+      background: -webkit-linear-gradient(left,#5DADE2,#00c6ff);
+      padding: 20px 0 0 0;
+      box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+      border-radius: 10px;
+      justify-content: center;  
+    }
+  
+  .f1{
+    justify-content: center;
+  }

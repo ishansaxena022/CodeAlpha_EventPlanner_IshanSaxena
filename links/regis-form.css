@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+  }
+  
+  .form-regis {
+    max-width: 550px;
+    padding: 1rem;
+    background-color: #89cff0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-regis .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-regis input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-regis input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
